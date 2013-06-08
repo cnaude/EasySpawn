@@ -1,0 +1,14 @@
+name: ${project.name}
+version: ${project.version}
+description: ${project.description}
+author: cnaude
+main: com.cnaude.easyspawn.EasySpawn
+commands:
+    setspawn:
+        description: Set the spawn location
+        usage: |
+         /<command> - Set the spawn location
+permissions:
+  'easyspawn.set':
+    description: Permission to run /setspawn.
+    default: op
