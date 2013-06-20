@@ -16,10 +16,12 @@ public class EasySpawn extends JavaPlugin {
     @Override
     public void onEnable() {
         getCommand("setspawn").setExecutor(this);
+        getServer().getPluginManager().registerEvents(new RespawnHandler(), this);
     }
 
     @Override
     public void onDisable() {
+        getCommand("setspawn").setExecutor(null);
     }
 
     @Override
