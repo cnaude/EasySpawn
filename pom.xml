@@ -13,7 +13,7 @@
     <artifactId>EasySpawn</artifactId>
     <version>1.0-${build.number}</version>
     <name>EasySpawn</name>
-    <description>Simple spawn set plugin.</description>
+    <description>Simple spawn location changer plugin.</description>
     <!--<url>http://dev.bukkit.org/server-mods/easyspawn/</url>-->
     
     <dependencies>
